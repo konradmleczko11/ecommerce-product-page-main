@@ -23,3 +23,35 @@ $black: hsl(0, 0%, 0%);
 ol, ul {
     list-style: none;
 }
+
+.bd-grid {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav--container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      width: 150px;
+      height: auto;
+      margin-right: 3em;
+    }
+    .nav__list {
+        display: flex;
+        flex-direction: row;
+        li {
+            padding: 2rem 1rem;
+            height: 100%;
+            cursor: pointer;
+            &:hover {
+                border-bottom: 3px solid $orange;
+            }
+            a {
+                color: $dark-grayish-blue;
+            }
+        }
+    }   
+}
