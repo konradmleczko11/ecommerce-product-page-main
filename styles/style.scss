@@ -53,5 +53,35 @@ ol, ul {
                 color: $dark-grayish-blue;
             }
         }
-    }   
+    }  
+    .buttons--container {
+        height: 100%;
+        .cart--icon {
+            img {
+                width: 25px;
+            }
+        }
+        .avatar--icon {
+            img {
+                width: 40px;
+            }
+        }
+    } 
+}
+
+.product--container {
+    display: flex;
+    .product--images {
+        flex: 1;
+        img {
+            max-width: 600px;
+        }
+        .product--miniatures {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    .product--info {
+        flex: 1;
+    }
 }

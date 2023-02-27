@@ -51,8 +51,44 @@ ol, ul {
   cursor: pointer;
 }
 .nav--container .nav__list li:hover {
-  border-bottom: 3px solid hsl(26deg, 100%, 55%);
+  border-bottom: 3px solid hsl(26, 100%, 55%);
 }
 .nav--container .nav__list li a {
-  color: hsl(219deg, 9%, 45%);
+  color: hsl(219, 9%, 45%);
+}
+.nav--container .buttons--container {
+  height: 100%;
+}
+.nav--container .buttons--container .cart--icon img {
+  width: 25px;
+}
+.nav--container .buttons--container .avatar--icon img {
+  width: 40px;
+}
+
+.product--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.product--container .product--images {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.product--container .product--images img {
+  max-width: 600px;
+}
+.product--container .product--images .product--miniatures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.product--container .product--info {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }/*# sourceMappingURL=style.css.map */
